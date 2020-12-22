@@ -12,7 +12,7 @@ pipeline {
             steps {
                 rtServer (
                     id: 'ARTIFACTORY_SERVER',
-                    url: 'http://mill.jfrog.info:12094/artifactory',
+                    url: 'http://localhost:8081/artifactory',
                     username: 'test',
                     password: 'password123'
                 )
